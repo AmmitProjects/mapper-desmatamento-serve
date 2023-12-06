@@ -7,8 +7,8 @@ app = Flask(__name__)
 def calcular_desmatamento():
     try:
         # Definindo manualmente os caminhos das imagens
-        foto_ano_anterior = r'C:\Users\eduar\PycharmProjects\MapperDesmatamentoServe\imgs\2022.jpg'
-        foto_ano_atual = r'C:\Users\eduar\PycharmProjects\MapperDesmatamentoServe\imgs\2021.jpg'
+        foto_ano_anterior = r'C:\Users\eduar\Documents\Projetos\trabalho-marcos\mapper-desmatamento-serve\imgs\2022.jpg'
+        foto_ano_atual = r'C:\Users\eduar\Documents\Projetos\trabalho-marcos\mapper-desmatamento-serve\imgs\2021.jpg'
 
         # Lendo as imagens
         img_ano_anterior = cv2.imread(foto_ano_anterior)
