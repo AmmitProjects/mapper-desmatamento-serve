@@ -1,8 +1,10 @@
 from flask import Flask, jsonify
+from flask_cors import CORS  # Importe a extensão CORS
 import cv2
 import numpy as np
 
 app = Flask(__name__)
+CORS(app)  # Adicione essa linha para habilitar o CORS
 
 def calcular_desmatamento():
     try:
